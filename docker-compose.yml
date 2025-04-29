@@ -21,7 +21,7 @@ services:
     ports:
       - "8074:8074"
     environment:
-      - spring.datasource.url=jdbc:mysql://mysql:3306/dbsekolah_student
+      - spring.datasource.url=jdbc:mysql://mysql:3306/dbuts_student
       - spring.datasource.username=root
       - spring.datasource.password=root_password
       - eureka.client.service-url.defaultZone=http://eurekaserver:8761/eureka/
@@ -38,7 +38,7 @@ services:
     ports:
       - "8075:8075"
     environment:
-      - spring.datasource.url=jdbc:mysql://mysql:3306/dbsekolah_teacher
+      - spring.datasource.url=jdbc:mysql://mysql:3306/dbuts_teacher
       - spring.datasource.username=root
       - spring.datasource.password=root_password
       - eureka.client.service-url.defaultZone=http://eurekaserver:8761/eureka/
@@ -55,7 +55,7 @@ services:
     ports:
       - "8076:8076"
     environment:
-      - spring.datasource.url=jdbc:mysql://mysql:3306/dbsekolah_homework
+      - spring.datasource.url=jdbc:mysql://mysql:3306/dbuts_homework
       - spring.datasource.username=root
       - spring.datasource.password=root_password
       - eureka.client.service-url.defaultZone=http://eurekaserver:8761/eureka/
